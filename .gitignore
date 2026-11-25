@@ -1,0 +1,30 @@
+
+# Java compiled files
+*.class
+
+# Maven generated files
+target/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Test reports
+test-output/
+allure-results/
+
+# Log files
+*.log
+
+# Generated Extent Reports
+src/test/resources/ExtentReport/*.html
+
+# Temporary files
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Do not upload credentials
+.env
